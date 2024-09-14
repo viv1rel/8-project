@@ -1,0 +1,103 @@
+@import url('fonts.css');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.article_wrapper
+{
+    max-width: 960px;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+.logo
+{
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    margin-bottom: 90px;
+}
+
+.main_title
+{
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 58px;
+    line-height: 64px;
+    margin-bottom: 36px;
+    max-width: 500px;
+}
+
+.text
+{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 48px;
+    max-width: 375px;
+}
+
+.blue_button
+{
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 28px;
+    height: 50px;
+    width: 152px;
+    border-radius: 25px;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #233fe2;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.blue_button:hover
+{
+    background-color: #405aee;
+}
+
+.red_button
+{
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 28px;
+    height: 50px;
+    width: 152px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffcccd;
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.red_button:hover
+{
+    background-color: #ffcccd;
+}
+
+.article_photo
+{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
